@@ -1,0 +1,32 @@
+﻿@model PfitBlogApplication.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>login</h2>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@section loginform
+{
+    @using(Html.BeginForm())
+    {
+        <div style="background:#b7adad; width: 700px; margin: 0 auto">
+            <fieldset>
+   <label style="padding:16px"> @Html.LabelFor(m => m.Email)</label> 
+    <label style="margin-top:20px">@Html.TextBoxFor(m => m.Email)</label> 
+        <br/>
+    <label style="padding:16px; margin-top:5px">@Html.LabelFor(m => m.Password)</label> 
+    <label >@Html.PasswordFor(m => m.Password)</label> 
+        <br/>
+        <input input type="submit" style="margin-left:16px; margin-top:8px" />
+     @Html.ValidationSummary()
+            </fieldset>
+        </div>
+     
+    }
+}
+
+

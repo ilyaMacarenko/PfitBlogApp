@@ -1,0 +1,50 @@
+﻿@model PfitBlogApplication.Models.Org
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Org</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CountCar)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CountCar)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CountPeople)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CountPeople)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PhoneMTC)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PhoneMTC)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PhoneVelcom)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PhoneVelcom)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.OrgId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

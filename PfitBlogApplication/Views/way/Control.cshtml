@@ -1,0 +1,57 @@
+﻿@model IEnumerable<PfitBlogApplication.Models.Way>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Поиск маршрута</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StartWay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IntervalStation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndWay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Destination)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cost)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartWay)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IntervalStation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndWay)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Destination)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cost)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.WayId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.WayId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.WayId })
+        </td>
+    </tr>
+}
+
+</table>

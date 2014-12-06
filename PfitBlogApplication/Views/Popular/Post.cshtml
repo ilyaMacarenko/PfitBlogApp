@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Post";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model PfitBlogApplication.Models.PostModel
+
+<h2>Post</h2>
+@using(@Html.BeginForm())
+{
+    <div>
+       <fieldset>
+           <legend>New post form</legend>
+           <div>@Html.LabelFor(u => u.Title)</div>
+           <div>@Html.TextBoxFor(u => u.Title)</div>
+           <br/>
+           <div>@Html.LabelFor(u => u.AuthorName)</div>
+           <div>@Html.TextBoxFor(u => u.AuthorName)</div>
+           <br/>
+           <div>@Html.LabelFor(u => u.Content)</div>
+           <div>@Html.TextBoxFor(u => u.Content)</div>
+           <br/>
+           <input type="submit" value="AddPost">
+
+       </fieldset>   
+    </div>
+}

@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model PfitBlogApplication.Models.Order
+
+<h2>Сделаем заказ?</h2>
+@using(Html.BeginForm("order","way"))
+{
+<div>
+    <fieldset>
+        <legent>Бронирование места</legent>
+        @Html.Label("Число мест")
+        <input type="number" min="1" max="5" name="countplaces" />
+        <br />
+        @Html.Label("Точка старта")
+        <select name="start">
+            <option selected="selected" disabled>Точка старта</option>
+            <option value="1">Гродно</option>
+            <option value="2">Минск</option>
+        </select>
+        <br />
+        @Html.Label("Конечная точка")
+        <select name="end">
+                    <option selected="selected" disabled>Выберите остановку</option>
+                    <option value="1">Каменка</option>
+                    <option value="2">Литвяны</option>
+                    <option value="3">Логовоище</option>
+                    <option value="4">Городище</option>
+                    <option value="5">Каменка-2</option>
+                    <option value="6">Энергетик</option>
+                    <option value="7">Негорелое</option>
+                    <option value="8">Дзержинск</option>
+                    <option value="9">Фаниполь</option>
+                    <option value="10">Пятигорье</option>
+                    <option value="11">Столичный</option>
+                    <option value="12">Станьково</option>
+                    <option value="13">Клыповщина</option>
+            </select>
+        <br />
+        @Html.LabelFor(m => m.TimeStart)
+        @Html.EditorFor(m => m.TimeStart)
+        <br />
+        @Html.Label("Ваш номер телефона")
+        @Html.EditorFor(m => m.Phone)
+        <input type="submit" value="Заказать" />
+    </fieldset>
+</div>
+}

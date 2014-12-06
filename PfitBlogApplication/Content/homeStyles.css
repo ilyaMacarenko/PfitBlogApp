@@ -1,0 +1,32 @@
+﻿.bodyclass{
+    background-image:url(taxi.jpg);
+  }
+.mainmenu{
+   width: 700px; /* ширина меню */
+   height: 40px; /* высота */
+   margin: 0 auto; /* центрирование обертки меню */
+   background: transparent; /* цвет фона */
+   text-align: justify; /* растягиваем содержимое меню */
+   font-size: 22px;
+    
+   overflow: hidden; /* скрываем непоместившиеся пункты */
+}
+
+.mainmenu a{
+   text-decoration: none; /* убираем подчеркивание ссылки */
+   display: inline-block; /* если больше 1 слова в пункте */
+   padding: 3px 10px; /* отступы */
+   color:#FFFFFF; /* цвет ссылок */
+   
+}
+.mainmenu a:hover{
+    color:#ffd800;
+}
+.empty{
+   width: 95%;
+   display: inline-block;
+}
+.pad {
+    width: 768px;
+    height: 10px;
+}

@@ -1,0 +1,43 @@
+﻿@model PfitBlogApplication.Models.Time
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Time</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TimeStart)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TimeStart)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Day)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Day)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Direction)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Direction)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrgId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrgId)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.TimeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

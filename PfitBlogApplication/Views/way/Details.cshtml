@@ -1,0 +1,50 @@
+﻿@model PfitBlogApplication.Models.Way
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Way</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.StartWay)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.StartWay)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IntervalStation)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IntervalStation)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EndWay)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EndWay)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Destination)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Destination)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Cost)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cost)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.WayId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<PfitBlogApplication.Models.Org>
+
+@{
+    ViewBag.Title = "Фирмы";
+}
+
+<h2>Фирмы перевозчики</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CountCar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CountPeople)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneMTC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneVelcom)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CountCar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CountPeople)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneMTC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneVelcom)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.OrgId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.OrgId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.OrgId })
+        </td>
+    </tr>
+}
+
+</table>

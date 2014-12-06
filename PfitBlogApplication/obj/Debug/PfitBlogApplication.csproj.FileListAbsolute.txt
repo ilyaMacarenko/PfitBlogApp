@@ -1,0 +1,92 @@
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\PfitBlogApplication.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\PfitBlogApplication.pdb
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\Antlr3.Runtime.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\EntityFramework.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\Newtonsoft.Json.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Mvc.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Optimization.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Providers.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Razor.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\WebGrease.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\EntityFramework.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\Newtonsoft.Json.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Mvc.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Razor.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.csprojResolveAssemblyReference.cache
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.dll
+C:\Users\Станислав\Documents\Visual Studio 2012\Projects\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.pdb
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.csprojResolveAssemblyReference.cache
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.pdb
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\PfitBlogApplication.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\PfitBlogApplication.pdb
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Antlr3.Runtime.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\EntityFramework.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Newtonsoft.Json.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Net.Http.Formatting.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.WebHost.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Mvc.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Optimization.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Providers.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Razor.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Deployment.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Razor.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\WebGrease.dll
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\EntityFramework.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Newtonsoft.Json.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Net.Http.Formatting.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.WebHost.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Mvc.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Razor.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Deployment.xml
+D:\БГУИР\ОСиУБД\7 семестр\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Razor.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\PfitBlogApplication.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\PfitBlogApplication.pdb
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Antlr3.Runtime.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\EntityFramework.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Newtonsoft.Json.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Net.Http.Formatting.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.WebHost.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Mvc.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Optimization.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Providers.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Razor.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Deployment.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Razor.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\WebGrease.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\EntityFramework.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\Newtonsoft.Json.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Net.Http.Formatting.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Http.WebHost.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Mvc.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.Razor.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Deployment.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Razor.xml
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.dll
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.pdb

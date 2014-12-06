@@ -1,0 +1,62 @@
+﻿@model PfitBlogApplication.Models.Time
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Time</legend>
+
+        @Html.HiddenFor(model => model.TimeId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TimeStart)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TimeStart)
+            @Html.ValidationMessageFor(model => model.TimeStart)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Day)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Day)
+            @Html.ValidationMessageFor(model => model.Day)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Direction)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Direction)
+            @Html.ValidationMessageFor(model => model.Direction)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrgId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrgId)
+            @Html.ValidationMessageFor(model => model.OrgId)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

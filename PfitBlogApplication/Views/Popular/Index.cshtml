@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Popular";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using PfitBlogApplication.Models
+
+<h2>Popular</h2>
+@section posts
+{
+        <p>Последние посты в нашем блоге</p>
+    @foreach (PostModel p in Model)
+    {
+        <br/>
+        <h2 class="page">@p.Title</h2>
+        <br/>
+        <div>Содержимое: @p.Content</div>
+        <br/>
+        <div>Автор поста @p.AuthorName</div>
+        <br/>
+        <div>Пост опубликован @p.Time</div>
+        <br/>
+        @Html.ActionLink("Комментировать","index","home")
+        <br/>
+    }
+<br/>
+<br/>
+    @Html.ActionLink("Создать новый пост", "post","popular")
+
+}
+
+
+

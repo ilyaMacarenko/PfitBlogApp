@@ -1,0 +1,54 @@
+﻿@model PfitBlogApplication.Models.AdvertisementModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>AdvertisementModel</legend>
+
+        @Html.HiddenFor(model => model.AdId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.StoreName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.StoreName)
+            @Html.ValidationMessageFor(model => model.StoreName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ObjectType)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ObjectType)
+            @Html.ValidationMessageFor(model => model.ObjectType)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Sale)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Sale)
+            @Html.ValidationMessageFor(model => model.Sale)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

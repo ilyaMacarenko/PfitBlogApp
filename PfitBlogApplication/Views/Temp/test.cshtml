@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using PfitBlogApplication.Models
+
+<h2>test</h2>
+
+@foreach(Player p in Model)
+{
+    <div>Id:  @p.Name</div>
+}

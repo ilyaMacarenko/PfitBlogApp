@@ -1,0 +1,36 @@
+﻿@model PfitBlogApplication.Models.AdvertisementModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>AdvertisementModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.StoreName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.StoreName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ObjectType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ObjectType)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Sale)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Sale)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AdId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

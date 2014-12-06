@@ -1,0 +1,74 @@
+﻿@model IEnumerable<PfitBlogApplication.Models.Time>
+@Styles.Render("~/Content/timeStyles.css")
+
+@{
+    ViewBag.Title = "Расписание";
+}
+<span class="empty"></span> <!-- элемент, занимающий вторую строку -->
+@using (@Html.BeginForm("index","time"))
+{
+    <div class="menu" style="background:transparent; width:800px;">
+    <label style="font-size:14px; color:white; padding:16px">Количество мест:</label> 
+                <input type="number" min="1" max="18" name="count"/>
+         <label style="font-size:14px; color:white; padding:16px">День недели:</label> 
+           
+                <select name="days">
+                    <option selected="selected" disabled>Выберите день</option>
+                    <option value="0">Понедельник</option>
+                    <option value="1">Вторник</option>
+                    <option value="2">Среда</option>
+                    <option value="3">Четверг</option>
+                    <option value="4">Пятница</option>
+                    <option value="5">Суббота</option>
+                    <option value="6">Воскресенье</option>
+                </select>
+         <label style="font-size:14px; color:white; padding:16px"> Нарпавление:</label> 
+         
+                <select name="direction">
+                    <option selected="selected" disabled>Откуда едем?</option>
+                    <option value="0">Узда-Минск</option>
+                    <option value="1">Минск-Узда</option>
+                </select>
+
+                <input type="submit" value="Найти" style="margin-left:16px" />
+        </div>
+}
+
+<div align="center">
+<table class="simple-little-table" cellspacing='0'>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TimeStart)
+        </th>
+        <th class='even'>
+            @Html.DisplayNameFor(model => model.Day)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Direction)
+        </th>
+        <th class='even'>
+            @Html.DisplayNameFor(model => model.OrgId)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TimeStart)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Day)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Direction)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrgId)
+        </td>
+
+    </tr>
+}
+
+</table>
+</div>
+<div>Стоимость поездки: @ViewBag.Cost</div>

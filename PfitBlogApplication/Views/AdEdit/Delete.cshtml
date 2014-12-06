@@ -1,0 +1,40 @@
+﻿@model PfitBlogApplication.Models.AdvertisementModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>AdvertisementModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.StoreName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.StoreName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ObjectType)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ObjectType)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Sale)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Sale)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

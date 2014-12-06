@@ -1,0 +1,46 @@
+﻿@model IEnumerable<PfitBlogApplication.Models.Way>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (@Html.BeginForm("index","way"))
+{
+    <div class="menu" style="width:700px; color:#fff; font-size:14px; margin:0 auto">
+               
+             <label style="padding-right:16px">Точка отправления</label>  
+                <select name="direction">
+                    <option selected="selected" disabled>Откуда едем?</option>
+                    <option value="0">Узда</option>
+                    <option value="1">Минск</option>
+                </select>
+               <label style="padding:16px">Конечная точка</label> 
+                <select name="interval" >
+                    <option selected="selected" disabled>Выберите остановку</option>
+                    <option value="0">Каменка</option>
+                    <option value="1">Литвяны</option>
+                    <option value="2">Логовоище</option>
+                    <option value="3">Городище</option>
+                    <option value="4">Каменка-2</option>
+                    <option value="5">Энергетик</option>
+                    <option value="6">Негорелое</option>
+                    <option value="7">Дзержинск</option>
+                    <option value="8">Фаниполь</option>
+                    <option value="9">Пятигорье</option>
+                    <option value="10">Столичный</option>
+                    <option value="11">Станьково</option>
+                    <option value="12">Клыповщина</option>
+                </select>
+
+                <input type="submit" value="Найти" style="margin-left:16px"/>
+        </div>
+}
+
+@if(ViewBag.Cost != null)
+{   <br />
+    <div style="width:700px; color:#fff; font-size:14px; margin:0 auto;">Продолжительность маршрута - @ViewBag.Destination км.<br/>Стоимость поездки: @ViewBag.Cost</div>
+}
+
+<div style="width:700px; color:#fff; font-size:14px; margin:0 auto; ">@Html.ActionLink("Сделать заказ","order","way")</div>
+

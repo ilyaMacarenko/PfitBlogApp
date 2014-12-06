@@ -1,0 +1,51 @@
+﻿@model IEnumerable<PfitBlogApplication.Models.Org>
+@Styles.Render("~/Content/timeStyles.css")
+@{
+    ViewBag.Title = "Фирмы";
+}
+
+<h2>Фирмы перевозчики</h2>
+
+<div align="center">
+<table class="simple-little-table" cellspacing='0'>
+    <tr>
+        <th class='even'>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CountCar)
+        </th>
+        <th class='even'>
+            @Html.DisplayNameFor(model => model.CountPeople)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneMTC)
+        </th>
+        <th class='even'>
+            @Html.DisplayNameFor(model => model.PhoneVelcom)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CountCar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CountPeople)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneMTC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneVelcom)
+        </td>
+
+    </tr>
+}
+
+</table>
+</div>

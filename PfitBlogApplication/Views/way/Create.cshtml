@@ -1,0 +1,68 @@
+﻿@model PfitBlogApplication.Models.Way
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Way</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.StartWay)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.StartWay)
+            @Html.ValidationMessageFor(model => model.StartWay)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IntervalStation)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IntervalStation)
+            @Html.ValidationMessageFor(model => model.IntervalStation)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EndWay)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EndWay)
+            @Html.ValidationMessageFor(model => model.EndWay)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Destination)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Destination)
+            @Html.ValidationMessageFor(model => model.Destination)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Cost)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Cost)
+            @Html.ValidationMessageFor(model => model.Cost)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

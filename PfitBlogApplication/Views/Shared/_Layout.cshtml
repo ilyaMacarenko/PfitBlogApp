@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/homeStyles.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+</head>
+<body style="background-image:url(taxi.jpg)">
+ 
+
+   @Scripts.Render("~/bundles/jquery")
+   @RenderSection("scripts", required: false)
+    
+    <p class="pad"></p>
+    <div class="mainmenu" style="color:#ffd800">
+      @Html.ActionLink("Перевозчики","index","org") 
+        @Html.ActionLink("Маршруты","index","way")
+         @Html.ActionLink("Расписание","index","time")
+         @Html.ActionLink("Личный кабинет","index","login")
+         
+        
+    <span class="empty"></span> <!-- элемент, занимающий вторую строку -->
+   </div>
+   
+    @RenderBody()
+    @RenderSection("homecontroller", false)
+    @RenderSection("loginform", false)
+    @RenderSection("profile", false)
+    @RenderSection("posts", false)
+    
+
+</body>
+</html>
