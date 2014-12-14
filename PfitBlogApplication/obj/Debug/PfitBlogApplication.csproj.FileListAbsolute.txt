@@ -90,3 +90,4 @@ D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web
 D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\bin\System.Web.WebPages.Razor.xml
 D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.dll
 D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.pdb
+D:\programms\Курсач\PfitBlogApplication\PfitBlogApplication\obj\Debug\PfitBlogApplication.csprojResolveAssemblyReference.cache

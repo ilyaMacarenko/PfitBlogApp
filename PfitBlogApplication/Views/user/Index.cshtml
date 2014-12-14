@@ -1,15 +1,13 @@
 ﻿@model IEnumerable<PfitBlogApplication.Models.User>
-
+@Styles.Render("~/Content/timeStyles.css")
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
+<table class="simple-little-table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.UserName)
@@ -25,7 +23,7 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
+        <td >
             @Html.DisplayFor(modelItem => item.UserName)
         </td>
         <td>

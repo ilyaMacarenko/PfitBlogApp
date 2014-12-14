@@ -12,7 +12,7 @@ namespace PfitBlogApplication.Models
     {
         private BlogContext db = new BlogContext();
         private bool isExistEmail = false;
-        private bool isExistPassword = false;
+
         //
         // GET: /Login/
         [AllowAnonymous]
@@ -25,25 +25,20 @@ namespace PfitBlogApplication.Models
         [AllowAnonymous]
         public ActionResult Index(LoginModel model)
         {
-            List<String> email = db.loginSet.Select(t => t.Email).ToList();
-            List<String> passwords = db.loginSet.Select(t => t.Password).ToList();
+            List<User> email = db.UserSet.ToList();
+         
             if(ModelState.IsValid)
             {
                 String Email = model.Email;
                 String Password = model.Password;
-                foreach( String em in email){
-                    if (em.Equals(Email)) {
+                foreach( User em in email){
+                    if (em.Email.ToString().Trim().Equals(Email) 
+                        && em.Password.ToString().Trim().Equals(Password)){
                         isExistEmail = true;
                         break;
                     }
                 }
-                foreach (String pas in passwords) {
-                    if (pas.Equals(Password)) {
-                        isExistPassword = true;
-                        break;
-                    }
-                }
-                if (isExistEmail && isExistPassword)
+                if (isExistEmail)
                 {
                     FormsAuthentication.SetAuthCookie(model.Email, true);
                     return RedirectToAction("menu", "user");

@@ -123,7 +123,7 @@ namespace PfitBlogApplication.Controllers
         [HttpGet]
         public ActionResult Control()
         {
-            return View();
+            return View(db.WaySet.AsEnumerable());
         }
         [HttpPost]
         public ActionResult Control(Way way)
@@ -139,10 +139,17 @@ namespace PfitBlogApplication.Controllers
                 case 0:
                 case 1:
                     var sortedInfo = db.WaySet.Find(interval);
-                    ViewBag.Destination = sortedInfo.Destination;
-                    ViewBag.Cost = sortedInfo.Cost;
-                    return View(db.WaySet.ToList());
-                   
+                    if (sortedInfo != null)
+                    {
+                        ViewBag.Destination = sortedInfo.Destination;
+                        ViewBag.Cost = sortedInfo.Cost;
+
+                    }
+                    else {
+                        ViewBag.Destination = "NOT FOUND";
+                        ViewBag.Cost = "NOT FOUND";
+                    }
+                   return View(db.WaySet.ToList());
                 default:
                     break;
             }

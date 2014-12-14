@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<PfitBlogApplication.Models.Org>
-
+@Styles.Render("~/Content/timeStyles.css")
 @{
     ViewBag.Title = "Фирмы";
 }
@@ -9,7 +9,7 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 
-<table>
+<table class="simple-little-table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Name)

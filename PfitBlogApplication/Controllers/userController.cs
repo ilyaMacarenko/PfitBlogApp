@@ -53,7 +53,6 @@ namespace PfitBlogApplication.Controllers
             int count = db.UserSet.ToList().Count;
             if (ModelState.IsValid)
             {
-                user.UserId = count + 1;
                 db.UserSet.Add(user);
                 db.SaveChanges();
                 return RedirectToAction("Index");

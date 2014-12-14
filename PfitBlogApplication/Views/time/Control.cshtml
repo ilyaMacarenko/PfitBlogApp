@@ -1,15 +1,16 @@
 ﻿@model IEnumerable<PfitBlogApplication.Models.Time>
-
+@Styles.Render("~/Content/timeStyles.css")
+@Styles.Render("~/Content/homeStyles.css");
 @{
     ViewBag.Title = "Index";
 }
-
-<h2>Index</h2>
+<body style="background:#6297a9">
+    <h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table>
+<table class="simple-little-table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.TimeStart)
@@ -49,3 +50,4 @@
 }
 
 </table>
+    </body>
